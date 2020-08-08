@@ -1,3 +1,50 @@
+# <u>QSResourceDirectory</u>
+
+**iOS 13.5** | **Swift 5** | **Xcode Version 11.5 (11E608c)**
+
+## Application Pages:
+
+1. **Categories List Page**
+   - [x] The list items must link to the resources page  
+2. **Resource List Page**
+   - [x] When I tap on the sort button, the list should sort from A-Z  
+   - [x] When I tap on it a second time, it should sort the list from Z-A
+   - [x] The list items must link to the details page
+   - [x] The description is HTML, but what you see on the screen must be text  
+3. **Resource Details Page**
+   - [x] Actionable email link - email model
+   - [x] Actionable phone numbers
+   - [x] Actionable address map - to Maps App
+   - [x] Actionable web link - web browser
+   - [x] Display images
+   - [x] Display description
+
+---
+
+### Notes:
+
+- Focus on modular designs & DI
+
+- Added a caching service to the photo fetching
+
+- Due to time constraints the icons for the cells were not added & certain custom cell layouts
+
+- Refactoring would be the next step to simplying the code base further
+
+- Would have like to add more states to the view controllers 
+
+- Would have been nice to include loading screens to simulate requests
+
+- Some classes and models should have been exacted to their own files
+
+  
+
+
+
+---
+
+# 
+
 # Instructions:
 
 - Fork this git repo to your computer
@@ -18,6 +65,10 @@
 - You can show how to handle threads.
 - Remember you can always create a side project first and prepare yourself before jumping into the test.
 - For JSON, you can use the RAW file version in git hub so you can simulate a call to remote API.
+
+
+
+
 
 # User Stories
 
