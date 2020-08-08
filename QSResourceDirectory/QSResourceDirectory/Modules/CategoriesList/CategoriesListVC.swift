@@ -32,7 +32,7 @@ class CategoriesListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .systemGray6
         title = "Categories"
         setupViews()
         dataModel.fetchCategories()

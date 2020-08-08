@@ -35,7 +35,7 @@ class ResourceListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Resources"
-        view.backgroundColor = .blue
+        view.backgroundColor = .systemGray6
         setupViews()
         setupBarButtonItem()
     }
